@@ -1,0 +1,49 @@
+### @RequestParam, URL로 조회
+POST http://localhost:8086/post-basic?username=kang&age=29
+
+### @RequestParam, Body로 조회
+POST http://localhost:8086/post-basic
+Content-Type: application/x-www-form-urlencoded
+
+username=kang&age=30
+
+### @RequestParam, json로 조회 => 오류
+POST http://localhost:8086/post-basic
+Content-Type: application/json
+
+{
+  "username" : "kang",
+  "age" : "123"
+}
+
+
+### @RequestParam 생략, URL로 조회
+POST http://localhost:8086/requestBody-Basic?username=kang&age=29
+
+### @RequestParam 생략, Body로 조회
+POST http://localhost:8086/requestBody-Basic
+Content-Type: application/x-www-form-urlencoded
+
+username=kang&age=30
+
+### @RequestParam 생략, json로 조회 => 오류
+POST http://localhost:8086/requestBody-Basic
+Content-Type: application/json
+
+{
+  "username" : "kang",
+  "age" : "123"
+}
+
+
+### text로 보내기
+POST http://localhost:8086/requestBody-string
+Content-Type: application/x-www-form-urlencoded
+
+hello world!
+
+### text로 보내기2
+POST http://localhost:8086/requestBody-string2
+Content-Type: application/x-www-form-urlencoded
+
+hello world

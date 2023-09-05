@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--    테이블 만들기 -->
+<form action="/listPractice" method="post">
+    <table>
+        <thead>
+        <tr>
+            <th>이름</th>
+            <th>나이</th>
+            <th>체크</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="user : ${users}">
+            <td th:text="${user.username}">default username</td>
+            <td th:text="${user.age}">default age</td>
+        </tr>
+        </tbody>
+
+    </table>
+</form>
+
+<!--<form method="post" action="#" th:object="${form}">-->
+<!--    <table>-->
+<!--        <thead>-->
+<!--        <tr>-->
+<!--            <th>Input Field</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+<!--        <tr th:each="inputField, i : ${form.inputFields}">-->
+<!--            <td>-->
+<!--                <input type="text" th:field="*{inputFields[__${i.index}__].value}" />-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--        </tbody>-->
+<!--    </table>-->
+<!--    <button type="submit">Submit</button>-->
+<!--</form>-->
+
+</body>
+</html>

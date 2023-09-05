@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>Get 요청 매핑
+        <ul>
+            <li><a href="/home">기본 URL 호출</a></li>
+            <li><a href="/home-stay">다중 URL 호출1</a></li>
+            <li><a href="/home-go">다중 URL 호출2</a></li>
+            <li><a href="/request-param-basic?username=kang&age=30">기본형을 요청 파라미터로 입력</a></li>
+            <form action="/request-param-basic" method="get">
+                username: <input type="text" name="username" />
+                age: <input type="text" name="age" />
+                <button type="submit">전송</button>
+            </form>
+            <li><a href="/request-param-map?username=kang&age=29&gender=man">기본형을 Map으로 요청 파라미터로 입력1</a></li>
+            <form action="/request-param-map" method="get">
+                username: <input type="text" name="username" />
+                age: <input type="text" name="age" />
+                gender: <input type="text" name="gender" />
+                <button type="submit">전송</button>
+            </form>
+            <li><a href="/request-param-map?username=kang&age=29">기본형을 Map으로 요청 파라미터로 입력2</a></li>
+            <form action="/request-param-map" method="get">
+                username: <input type="text" name="username" />
+                age: <input type="text" name="age" />
+                <button type="submit">전송</button>
+            </form>
+            <li><a href="/request-param-variable?username=kang&age=29">입력값하고 저장되는 변수가 다른 요청 파라미터로 입력</a></li>
+            <form action="/request-param-variable" method="get">
+                username: <input type="text" name="username" />
+                age: <input type="text" name="age" />
+                <button type="submit">전송</button>
+            </form>
+            <li><a href="/request-param-default">입력 유/무, 기본값을 설정하는 요청 파라미터로 입력</a></li>
+            <form action="/request-param-default" method="get">
+                username: <input type="text" name="username" />
+                age: <input type="text" name="age" />
+                <button type="submit">전송</button>
+            </form>
+            <li><a href="/mappings/kang">URI 경로에 따라 변경되는 요청 파라미터로 입력</a></li>
+            <form action="/mappings/{data}" method="get">
+                data: <input type="text" name="data" />
+                <button type="submit">전송</button>
+            </form>
+            <li><a href="/mappings/kang/12">다중 URI 경로에 따라 변경되는 요청 파라미터로 입력</a></li>
+            <form action="/mappings/{data}/{id}" method="get">
+                data: <input type="text" name="data" />
+                id: <input type="text" name="id" />
+                <button type="submit">전송</button>
+            </form>
+            <li><a href="/variable">입력 X, view에 값 넘겨주기</a></li>
+            <li><a href="/variable-input?username=kang&age=29">기본형 요청 파라미터로 view에 값 넘겨주기</a></li>
+            <form action="/variable-input" method="get">
+                username: <input type="text" name="username" />
+                age: <input type="text" name="age" />
+                <button type="submit">전송</button>
+            </form>
+            <li><a href="/variable-object?username=kang&age=29">객체형 요청 파라미터로 view에 값 넘겨주기</a></li>
+            <form action="/variable-object" method="get">
+                username: <input type="text" name="username" />
+                age: <input type="text" name="age" />
+                <button type="submit">전송</button>
+            </form>
+            <li><button onclick="location.href='/home'">Button</button >view 반환</li>
+            <form action="/newHello-go" method="get">json 반환1
+                <button type="submit">전송</button>
+            </form>
+            <li><button onclick="location.href='/newHello-go'">Button</button >json 반환2</li>
+        </ul>
+    </li>
+    <li>post 요청 매핑
+        <ul>
+            <li>@RequestParam</li>
+            <form action="/post-basic" method="post">
+                username: <input type="text" name="username" />
+                age: <input type="text" name="age" />
+                <button type="submit">전송</button>
+            </form>
+
+            <li>requestBodyBasic</li>
+            <form action="/requestBody-Basic" method="post">
+                username: <input type="text" name="username" />
+                age: <input type="text" name="age" />
+                <button type="submit">전송</button>
+            </form>
+
+            <li>requestBodyString</li>
+            <form action="/requestBody-string" method="post">
+                text: <input type="text" name="text" />
+                <button type="submit">전송</button>
+            </form>
+
+            <li>requestBodyObject</li>
+            <form action="/requestBody-object" method="post">
+                username: <input type="text" name="username" />
+                age: <input type="text" name="age" />
+                <button type="submit">전송</button>
+            </form>
+        </ul>
+    </li>
+</ul>
+</body>
+</html>

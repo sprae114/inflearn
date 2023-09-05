@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17b4c42a-f9db-4eaa-bc0f-c8a777dbb424" name="변경" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$USER_HOME$/Downloads/__MACOSX">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/core">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/item-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/mvc2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/servlet">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springmvc">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/thymeleaf">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28T0JrNqprvkOFhL2SQTJyQG0cO" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="모듈" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="corespring.corespring.common" />
+      <recent name="springcore.core.member" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sprae\OneDrive - inu.ac.kr\coding\inflearn\thymeleaf\src\main\resources\static" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="corespring.corespring.common" />
+      <recent name="corespring.corespring.singleton" />
+      <recent name="springcore.core.member" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.item-service [dependencies]">
+    <configuration name="ItemServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.itemservice.ItemServiceApplication" />
+      <module name="item-service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.itemservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="item-service [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/item-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="item-service" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/item-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConfigurationSingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="corespring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corespring.corespring.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="corespring.corespring.singleton" />
+      <option name="MAIN_CLASS_NAME" value="corespring.corespring.singleton.ConfigurationSingletonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="corespring의 corespring.corespring.common" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="corespring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corespring.corespring.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="corespring.corespring.common" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="core.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcore.core.CoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CorespringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="corespring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="corespring.corespring.CorespringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="item-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.itemservice.ItemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServletApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="servlet.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.servlet.ServletApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringmvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springmvc.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.springmvc.SpringmvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ItemServiceApplication" />
+      <item itemvalue="Gradle.item-service [dependencies]" />
+      <item itemvalue="Gradle.item-service" />
+      <item itemvalue="JUnit.corespring의 corespring.corespring.common" />
+      <item itemvalue="JUnit.ConfigurationSingletonTest" />
+      <item itemvalue="Spring Boot.SpringmvcApplication" />
+      <item itemvalue="Spring Boot.CoreApplication" />
+      <item itemvalue="Spring Boot.CorespringApplication" />
+      <item itemvalue="Spring Boot.ItemServiceApplication" />
+      <item itemvalue="Spring Boot.ServletApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.item-service [dependencies]" />
+        <item itemvalue="Gradle.item-service" />
+        <item itemvalue="Application.ItemServiceApplication" />
+        <item itemvalue="JUnit.ConfigurationSingletonTest" />
+        <item itemvalue="JUnit.corespring의 corespring.corespring.common" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="17b4c42a-f9db-4eaa-bc0f-c8a777dbb424" name="변경" comment="" />
+      <created>1651225199865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651225199865</updated>
+      <workItem from="1651225201252" duration="1329000" />
+      <workItem from="1651226922035" duration="67000" />
+      <workItem from="1651236216923" duration="11728000" />
+      <workItem from="1651297553004" duration="15532000" />
+      <workItem from="1651388896834" duration="1554000" />
+      <workItem from="1651423255817" duration="1361000" />
+      <workItem from="1651500625908" duration="3155000" />
+      <workItem from="1651579639233" duration="524000" />
+      <workItem from="1651624497863" duration="11480000" />
+      <workItem from="1651665707761" duration="1398000" />
+      <workItem from="1651667156696" duration="1301000" />
+      <workItem from="1651668881559" duration="488000" />
+      <workItem from="1651669429241" duration="2072000" />
+      <workItem from="1651672664096" duration="64000" />
+      <workItem from="1651672875617" duration="139000" />
+      <workItem from="1651824425452" duration="796000" />
+      <workItem from="1651840130311" duration="1000" />
+      <workItem from="1651850496730" duration="881000" />
+      <workItem from="1651866610831" duration="533000" />
+      <workItem from="1651924202033" duration="372000" />
+      <workItem from="1651991348385" duration="683000" />
+      <workItem from="1652002199730" duration="13000" />
+      <workItem from="1652002288117" duration="1089000" />
+      <workItem from="1652074767326" duration="3316000" />
+      <workItem from="1652087575448" duration="4574000" />
+      <workItem from="1652359793784" duration="725000" />
+      <workItem from="1653736759859" duration="865000" />
+      <workItem from="1653804944545" duration="1482000" />
+      <workItem from="1653915997056" duration="3085000" />
+      <workItem from="1653977896169" duration="8636000" />
+      <workItem from="1654178844493" duration="911000" />
+      <workItem from="1654235218630" duration="1766000" />
+      <workItem from="1654249606212" duration="1874000" />
+      <workItem from="1654353186881" duration="5000" />
+      <workItem from="1654428425078" duration="607000" />
+      <workItem from="1654429104843" duration="1062000" />
+      <workItem from="1656576826008" duration="367000" />
+      <workItem from="1657172805460" duration="2013000" />
+      <workItem from="1657349480289" duration="5693000" />
+      <workItem from="1657382089279" duration="864000" />
+      <workItem from="1657384827370" duration="596000" />
+      <workItem from="1657549428830" duration="606000" />
+      <workItem from="1657550671499" duration="100000" />
+      <workItem from="1657600381588" duration="2000" />
+      <workItem from="1657605073012" duration="422000" />
+      <workItem from="1657606564239" duration="2986000" />
+      <workItem from="1657639816170" duration="2002000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/inflearn$ServletApplication.ic" NAME="ServletApplication 커버리지 결과" MODIFIED="1651625408293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

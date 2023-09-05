@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/db2/itemservice-db" />
+    <file type="web" url="file://$PROJECT_DIR$/db2/springtx" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc1/core" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc1/item-service" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc1/servlet" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc1/springmvc" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/exception" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/form" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/login" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/message" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/thymeleaf-basic" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/typeconverter" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/upload" />
+    <file type="web" url="file://$PROJECT_DIR$/mvc2/validation" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mvc1/corespring/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="true" project-jdk-name="13" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

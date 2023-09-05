@@ -1,0 +1,41 @@
+### 기본 URL 호출
+GET http://localhost:8086/home
+
+### 다중 URL 호출
+GET http://localhost:8086/home-stay
+
+### 다중 URL 호출2
+GET http://localhost:8086/home-go
+
+### 기본형을 요청 파라미터로 입력
+GET http://localhost:8086/request-param-basic?username=kang&age=29
+
+### 기본형을 여러개 요청 파라미터로 입력
+GET http://localhost:8086/request-param-map?username=kang&age=29
+
+### 입력값하고 저장되는 변수가 다른 요청 파라미터로 입력
+GET http://localhost:8086/request-param-variable?username=kang&age=29
+
+### 입력 유/무, 기본값을 설정하는 요청 파라미터로 입력
+GET http://localhost:8086/request-param-default
+
+### URI 경로에 따라 변경되는 요청 파라미터로 입력
+GET http://localhost:8086/mappings/member
+
+### 다중 URI 경로에 따라 변경되는 요청 파라미터로 입력
+GET http://localhost:8086/mappings/member/1
+
+### 입력 X, view에 값 넘겨주기
+GET http://localhost:8086/variable
+
+### 기본형 요청 파라미터로 view에 값 넘겨주기
+GET http://localhost:8086/variable-input?username=kang&age=29
+
+### 객체형 요청 파라미터로 view에 값 넘겨주기
+GET http://localhost:8086/variable-object?username=kang&age=29
+
+### view 반환
+GET http://localhost:8086/newHome
+
+### json 반환
+GET http://localhost:8086/newHello-go

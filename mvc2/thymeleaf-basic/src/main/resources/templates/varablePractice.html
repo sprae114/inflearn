@@ -1,0 +1,33 @@
+<!--기본 HTML 구조-->
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Thymeleaf</h1>
+    <p th:text="${message}">안녕하세요. default message</p>
+<!--    테이블 만들기 -->
+    <table>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="user : ${users}">
+                <td th:text="${user.username}">default username</td>
+                <td th:text="${user.age}">default age</td>
+                <td>
+<!--                    체크 박스 만들기-->
+                    <input type="checkbox" th:field="*{userIds}" th:value="${user.id}" />
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

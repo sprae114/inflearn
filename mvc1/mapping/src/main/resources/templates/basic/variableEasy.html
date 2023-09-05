@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>SpringEL 표현식</h1>
+<ul>Object
+    <li>${user.getUsername()} = <span th:text="${user.getUsername()}"></span></li>
+    <li>${user.getAge()} = <span th:text="${user.getAge()}"></span></li>
+</ul>
+</body>
+</html>

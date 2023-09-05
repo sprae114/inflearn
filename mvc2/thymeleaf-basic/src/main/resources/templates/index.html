@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>List of Persons</title>
+</head>
+<body>
+<h1>List of Persons</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Loop through the list of persons and display each person -->
+    <tr th:each="person : ${personList}">
+        <td th:text="${person.name}"></td>
+        <td th:text="${person.age}"></td>
+    </tr>
+    </tbody>
+</table>
+
+<!-- Form to submit the updated list of persons -->
+<form action="#" th:action="@{/add}"
+      th:object="${personList}"
+      method="post">
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="person, personStat : *{persons}">
+            <td><input type="text" th:field="*{persons[__${personStat.index}__].name}" /></td>
+            <td><input type="number" th:field="*{persons[__${personStat.index}__].age}" /></td>
+        </tr>
+        </tbody>
+    </table>
+    <button type="submit">Submit</button>
+</form>
+
+<!-- 리스트로 person객체 입력받기-->
+<form action="#" th:action="@{/add}"
+      th:object="${form}"
+      method="post">
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr th:each="person, stats : *{persons}">
+                <td><input th:field="*{persons[__${stats.index}__].name}" required/></td>
+                <td><input th:field="*{persons[__${stats.index}__].age}" required/></td>
+            </tr>
+        </tbody>
+    </table>
+    <button type="submit">Submit</button>
+</form>
+
+<!-- Form to submit the updated list of persons -->
+<!--<form action="#" th:action="@{/add}" th:object="${persons}" method="post">-->
+<!--    <table>-->
+<!--        <thead>-->
+<!--        <tr>-->
+<!--            <th>Name</th>-->
+<!--            <th>Age</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+<!--        <tr th:each="person, personStat : *{persons}">-->
+<!--            <td><input type="text" th:field="*{persons[__${personStat.index}__].name}" /></td>-->
+<!--            <td><input type="number" th:field="*{persons[__${personStat.index}__].age}" /></td>-->
+<!--        </tr>-->
+<!--        </tbody>-->
+<!--    </table>-->
+<!--    <button type="submit">Submit</button>-->
+<!--</form>-->
+
+<!--<h1>Person List</h1>-->
+<!--<form action="#" th:action="@{/add}" th:object="${persons}" method="post">-->
+<!--    <table>-->
+<!--        <thead>-->
+<!--        <tr>-->
+<!--            <th>Name</th>-->
+<!--            <th>Age</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+<!--        <tr th:each="person, i : *{__${#lists.isEmpty(persons)}__} ? ${persons} : null">-->
+<!--            <td><input type="text" th:field="*{[__${i.index}__].name}" /></td>-->
+<!--            <td><input type="number" th:field="*{[__${i.index}__].age}" /></td>-->
+<!--        </tr>-->
+<!--        </tbody>-->
+<!--    </table>-->
+<!--    <button type="submit">Save</button>-->
+<!--</form>-->
+
+</body>
+</html>
